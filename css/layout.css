@@ -1,0 +1,268 @@
+html * {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    height: 40px;
+    width: 100vw;
+    background-color: black;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar li:hover a {
+    text-decoration: underline;
+}
+
+.navbar ul li:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+.navbar ul {
+    list-style-type: none;
+    width: 100%;
+}
+
+.navbar ul li {
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 40px;
+    background-color: black;
+    line-height: 37px;
+}
+
+.banner {
+width: 100vw;
+height: auto;
+position: relative;
+}
+
+.banner img {
+    width: 100vw;
+    height: auto;
+    z-index: 100;
+}
+
+.banner2 img {
+    width: 100vw;
+    height: auto;
+    z-index: 100;
+}
+
+.banner .banner-text {
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    text-align: center;
+    z-index: : 101;
+}
+
+
+.banner-text-header{
+
+    font-size: 1.5em;
+}
+.band-container {
+    width: 100vw ;
+    height: 540px;
+    background-color: white;
+    margin-bottom: 100px;
+}
+
+.band-container h2 {
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 100;
+    font-size: 2.2em;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.band-container p{
+
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 0.9em;
+
+}
+.band-container p.band-container-subtitle {
+    color: grey;
+    margin-top: 25px;
+}
+.band-container p.band-container-content {
+    width: 700px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.band-members {
+    width: 730px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.band-members ul {
+    width: 100%;
+    list-style-type: none;
+    height: 100%;
+}
+
+.band-members ul li {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+.band-members ul li.dusan img {
+width: 70%;
+height: auto;
+}
+.band-members ul li.stefan img {
+    width: 65.1%;
+    height: auto;
+}
+.band-members ul li.nauris img {
+        width: 74%;
+        height: auto;
+}
+.tour-dates-container {
+    overflow: hidden;
+   width: 100vw;
+   height: auto;
+   color:white;
+   background-color: black;
+   padding-bottom: 100px;
+}
+.tour-dates-container h2 {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 100;
+    font-size: 2.2em;
+    text-transform: uppercase;
+}
+.tour-dates-container p{
+
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 0.9em;
+}
+.tour-dates-container p.tour-dates-container {
+    color: grey;
+}
+.tour-dates-tickets {
+    width: 730px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    background-color: white;
+}
+
+.tour-dates-tickets ul {
+    list-style-type: none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.tour-dates-tickets ul li {
+    height: 40px;
+    border-bottom: 1px solid #a1a1a140;
+}
+.tour-dates-tickets ul li span {
+    padding-right: 20px;
+    padding-left: 20px;
+    color: black;
+    line-height: 37px ;
+}
+span.sold-out {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: red;
+}
+
+span.tour-dates-tickets-number {
+    float: right;
+    text-align: center ;
+    width: 30px;
+    height: 30px!important;
+    line-height: 30px!important;
+    background-color: black;
+    color: white!important;
+    border-radius: 15px;
+    padding: 0px!important;
+    margin:0px!important;
+    margin-top: 5px!important;
+    margin-right: 10px!important ;
+}
+.tour-dates-buy-tickets-wrapper {
+    width: 730px;
+    margin-top:30px ;
+    padding-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+
+}
+.tour-dates-buy-tickets-wrapper ul li p {
+    text-align: left;
+    margin-left: 20px!important;
+    margin: 15px!important;
+    font-weight: 100;
+}
+.tour-dates-buy-tickets-wrapper ul li {
+    background-color:white ;
+    color: black;
+    text-align: left;
+}
+.tour-dates-buy-tickets-wrapper ul {
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.tour-dates-buy-tickets-wrapper ul li.left {
+    float: left;
+    width: 30%;
+}
+.tour-dates-buy-tickets-wrapper ul li.right {
+    float: right;
+    width: 35.6%;
+}
+.tour-dates-buy-tickets-wrapper ul li.center {
+    float: left;
+    width: 26.6%;
+    margin-left: 4.5%;
+}
+
+
+.tour-dates-buy-tickets-wrapper ul li img {
+    width: 100%;
+    height: auto;
+}
+
+.tour-dates-buy-tickets-wrapper ul li span {
+    margin: 10px;
+    background-color: black;
+    color:white!important ;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 80px;
+    text-align: center;
+    margin-left: 15px;
+}
+
+
+.banner2 img {
+    width: 100.8%;
+}
